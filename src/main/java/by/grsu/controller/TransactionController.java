@@ -1,10 +1,10 @@
-package by.grsu.edu.banking.controller;
+package by.grsu.controller;
 
-import by.grsu.edu.banking.dto.transaction.TransactionMainInfoDto;
-import by.grsu.edu.banking.dto.transaction.TransactionRegistrationDto;
-import by.grsu.edu.banking.service.CardServiceImpl;
-import by.grsu.edu.banking.service.TransactionServiceImpl;
+import by.grsu.dto.transaction.TransactionMainInfoDto;
+import by.grsu.dto.transaction.TransactionRegistrationDto;
 import by.grsu.edu.banking.utils.exception.TransactionException;
+import by.grsu.service.CardServiceImpl;
+import by.grsu.service.TransactionServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

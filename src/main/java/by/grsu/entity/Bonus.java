@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.entity;
+package by.grsu.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

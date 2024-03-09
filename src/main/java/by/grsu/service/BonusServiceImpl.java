@@ -1,9 +1,9 @@
-package by.grsu.edu.banking.service;
+package by.grsu.service;
 
-import by.grsu.edu.banking.dto.bonus.BonusDto;
-import by.grsu.edu.banking.dto.convertor.BonusDtoConvertor;
-import by.grsu.edu.banking.repository.BonusRepository;
-import by.grsu.edu.banking.service.api.BonusService;
+import by.grsu.dto.bonus.BonusDto;
+import by.grsu.dto.convertor.BonusDtoConvertor;
+import by.grsu.repository.BonusRepository;
+import by.grsu.service.api.BonusService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

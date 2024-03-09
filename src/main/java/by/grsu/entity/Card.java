@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.entity;
+package by.grsu.entity;
 
 import by.grsu.edu.banking.utils.exception.TransactionException;
 import jakarta.persistence.Entity;

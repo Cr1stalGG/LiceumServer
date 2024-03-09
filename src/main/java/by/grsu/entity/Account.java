@@ -1,20 +1,8 @@
-package by.grsu.edu.banking.entity;
+package by.grsu.entity;
 
-import by.grsu.edu.banking.entity.enumiration.Role;
-import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import by.grsu.entity.enumiration.Role;
+import jakarta.persistence.*;
+import lombok.*;
 
 import java.util.List;
 

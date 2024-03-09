@@ -1,8 +1,8 @@
-package by.grsu.edu.banking.controller;
+package by.grsu.controller;
 
-import by.grsu.edu.banking.dto.auth.AuthenticationRequest;
-import by.grsu.edu.banking.dto.auth.AuthenticationResponse;
-import by.grsu.edu.banking.service.AccountServiceImpl;
+import by.grsu.dto.auth.AuthenticationRequest;
+import by.grsu.dto.auth.AuthenticationResponse;
+import by.grsu.service.AccountServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

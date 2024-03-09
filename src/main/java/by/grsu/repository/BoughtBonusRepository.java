@@ -1,6 +1,7 @@
-package by.grsu.edu.banking.repository;
+package by.grsu.repository;
 
-import by.grsu.edu.banking.entity.BoughtBonus;
+
+import by.grsu.entity.BoughtBonus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BoughtBonusRepository extends JpaRepository<BoughtBonus, Long> {

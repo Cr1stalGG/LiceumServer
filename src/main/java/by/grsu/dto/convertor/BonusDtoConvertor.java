@@ -1,8 +1,8 @@
-package by.grsu.edu.banking.dto.convertor;
+package by.grsu.dto.convertor;
 
-import by.grsu.edu.banking.dto.bonus.BonusDto;
-import by.grsu.edu.banking.entity.Bonus;
-import by.grsu.edu.banking.dto.bonus.BonusCreationDto;
+import by.grsu.dto.bonus.BonusCreationDto;
+import by.grsu.dto.bonus.BonusDto;
+import by.grsu.entity.Bonus;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass

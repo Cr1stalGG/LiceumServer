@@ -1,6 +1,6 @@
-package by.grsu.edu.banking.security.config;
+package by.grsu.security.config;
 
-import by.grsu.edu.banking.entity.Account;
+import by.grsu.entity.Account;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

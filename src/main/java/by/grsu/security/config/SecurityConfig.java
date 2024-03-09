@@ -1,7 +1,7 @@
-package by.grsu.edu.banking.security.config;
+package by.grsu.security.config;
 
-import by.grsu.edu.banking.entity.enumiration.Role;
-import by.grsu.edu.banking.security.jwt.JwtAuthFilter;
+import by.grsu.entity.enumiration.Role;
+import by.grsu.security.jwt.JwtAuthFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

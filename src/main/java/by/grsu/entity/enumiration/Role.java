@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.entity.enumiration;
+package by.grsu.entity.enumiration;
 
 public enum Role {
     ADMIN,

@@ -1,7 +1,7 @@
-package by.grsu.edu.banking.dto.convertor;
+package by.grsu.dto.convertor;
 
-import by.grsu.edu.banking.entity.Transaction;
-import by.grsu.edu.banking.dto.transaction.TransactionMainInfoDto;
+import by.grsu.dto.transaction.TransactionMainInfoDto;
+import by.grsu.entity.Transaction;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass

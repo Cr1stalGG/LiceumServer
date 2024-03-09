@@ -1,14 +1,14 @@
-package by.grsu.edu.banking.service;
+package by.grsu.service;
 
-import by.grsu.edu.banking.dto.transaction.TransactionRegistrationDto;
-import by.grsu.edu.banking.entity.Account;
-import by.grsu.edu.banking.entity.Card;
-import by.grsu.edu.banking.repository.AccountRepository;
-import by.grsu.edu.banking.repository.CardRepository;
-import by.grsu.edu.banking.service.api.CardService;
+import by.grsu.dto.transaction.TransactionRegistrationDto;
 import by.grsu.edu.banking.utils.exception.CardCreationException;
-import by.grsu.edu.banking.utils.Generator;
 import by.grsu.edu.banking.utils.exception.TransactionException;
+import by.grsu.entity.Account;
+import by.grsu.entity.Card;
+import by.grsu.repository.AccountRepository;
+import by.grsu.repository.CardRepository;
+import by.grsu.service.api.CardService;
+import by.grsu.utils.Generator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

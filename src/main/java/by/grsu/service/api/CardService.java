@@ -1,6 +1,6 @@
-package by.grsu.edu.banking.service.api;
+package by.grsu.service.api;
 
-import by.grsu.edu.banking.dto.transaction.TransactionRegistrationDto;
+import by.grsu.dto.transaction.TransactionRegistrationDto;
 import by.grsu.edu.banking.utils.exception.CardCreationException;
 import by.grsu.edu.banking.utils.exception.TransactionException;
 

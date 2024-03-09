@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.security.jwt;
+package by.grsu.security.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

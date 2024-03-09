@@ -1,11 +1,11 @@
-package by.grsu.edu.banking.service.api;
+package by.grsu.service.api;
 
-import by.grsu.edu.banking.dto.account.AccountDto;
-import by.grsu.edu.banking.dto.bonus.*;
-import by.grsu.edu.banking.dto.bonus.bought_bonus.CheckBoughtBonusRequest;
-import by.grsu.edu.banking.dto.bonus.bought_bonus.CheckBoughtBonusResponse;
-import by.grsu.edu.banking.dto.transaction.TransactionDto;
-import by.grsu.edu.banking.dto.transaction.TransactionResponse;
+import by.grsu.dto.account.AccountDto;
+import by.grsu.dto.bonus.*;
+import by.grsu.dto.bonus.bought_bonus.CheckBoughtBonusRequest;
+import by.grsu.dto.bonus.bought_bonus.CheckBoughtBonusResponse;
+import by.grsu.dto.transaction.TransactionDto;
+import by.grsu.dto.transaction.TransactionResponse;
 import by.grsu.edu.banking.utils.exception.TransactionException;
 
 import java.util.List;

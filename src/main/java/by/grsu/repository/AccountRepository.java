@@ -1,6 +1,6 @@
-package by.grsu.edu.banking.repository;
+package by.grsu.repository;
 
-import by.grsu.edu.banking.entity.Account;
+import by.grsu.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

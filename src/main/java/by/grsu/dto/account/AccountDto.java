@@ -1,7 +1,7 @@
-package by.grsu.edu.banking.dto.account;
+package by.grsu.dto.account;
 
-import by.grsu.edu.banking.dto.bonus.bought_bonus.BoughtBonusDto;
-import by.grsu.edu.banking.dto.card.CardDto;
+import by.grsu.dto.bonus.bought_bonus.BoughtBonusDto;
+import by.grsu.dto.card.CardDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

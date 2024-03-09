@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.utils.api.grsu;
+package by.grsu.utils.api.grsu;
 
 public class AuthException extends Exception{
     public AuthException(){

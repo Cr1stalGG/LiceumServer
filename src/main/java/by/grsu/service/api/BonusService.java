@@ -1,6 +1,6 @@
-package by.grsu.edu.banking.service.api;
+package by.grsu.service.api;
 
-import by.grsu.edu.banking.dto.bonus.BonusDto;
+import by.grsu.dto.bonus.BonusDto;
 
 import java.util.List;
 

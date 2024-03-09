@@ -1,7 +1,7 @@
-package by.grsu.edu.banking.service.api;
+package by.grsu.service.api;
 
-import by.grsu.edu.banking.dto.transaction.TransactionMainInfoDto;
-import by.grsu.edu.banking.dto.transaction.TransactionRegistrationDto;
+import by.grsu.dto.transaction.TransactionMainInfoDto;
+import by.grsu.dto.transaction.TransactionRegistrationDto;
 
 import java.util.List;
 

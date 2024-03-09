@@ -1,6 +1,6 @@
-package by.grsu.edu.banking.dto.auth;
+package by.grsu.dto.auth;
 
-import by.grsu.edu.banking.entity.enumiration.Role;
+import by.grsu.entity.enumiration.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

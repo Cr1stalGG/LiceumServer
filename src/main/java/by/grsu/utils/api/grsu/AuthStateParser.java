@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.utils.api.grsu;
+package by.grsu.utils.api.grsu;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;

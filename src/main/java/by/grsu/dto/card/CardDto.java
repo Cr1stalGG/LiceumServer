@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.dto.card;
+package by.grsu.dto.card;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

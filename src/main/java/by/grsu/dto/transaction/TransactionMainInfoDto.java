@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.dto.transaction;
+package by.grsu.dto.transaction;
 
 import lombok.*;
 

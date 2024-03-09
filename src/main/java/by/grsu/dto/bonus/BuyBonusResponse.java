@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.dto.bonus;
+package by.grsu.dto.bonus;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

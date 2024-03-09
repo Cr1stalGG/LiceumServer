@@ -1,7 +1,7 @@
-package by.grsu.edu.banking.controller;
+package by.grsu.controller;
 
-import by.grsu.edu.banking.dto.bonus.BonusDto;
-import by.grsu.edu.banking.service.BonusServiceImpl;
+import by.grsu.dto.bonus.BonusDto;
+import by.grsu.service.BonusServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

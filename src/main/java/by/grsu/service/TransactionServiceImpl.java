@@ -1,11 +1,11 @@
-package by.grsu.edu.banking.service;
+package by.grsu.service;
 
-import by.grsu.edu.banking.dto.convertor.TransactionDtoConvertor;
-import by.grsu.edu.banking.dto.transaction.TransactionMainInfoDto;
-import by.grsu.edu.banking.dto.transaction.TransactionRegistrationDto;
-import by.grsu.edu.banking.entity.Transaction;
-import by.grsu.edu.banking.repository.TransactionRepository;
-import by.grsu.edu.banking.service.api.TransactionService;
+import by.grsu.dto.convertor.TransactionDtoConvertor;
+import by.grsu.dto.transaction.TransactionMainInfoDto;
+import by.grsu.dto.transaction.TransactionRegistrationDto;
+import by.grsu.entity.Transaction;
+import by.grsu.repository.TransactionRepository;
+import by.grsu.service.api.TransactionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

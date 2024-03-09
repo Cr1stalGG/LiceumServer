@@ -1,11 +1,11 @@
-package by.grsu.edu.banking.controller;
+package by.grsu.controller;
 
-import by.grsu.edu.banking.dto.account.AccountDto;
-import by.grsu.edu.banking.dto.bonus.BuyBonusRequest;
-import by.grsu.edu.banking.dto.bonus.BuyBonusResponse;
-import by.grsu.edu.banking.dto.bonus.RefuseBonusRequest;
-import by.grsu.edu.banking.dto.bonus.RefuseBonusResponse;
-import by.grsu.edu.banking.service.AccountServiceImpl;
+import by.grsu.dto.account.AccountDto;
+import by.grsu.dto.bonus.BuyBonusRequest;
+import by.grsu.dto.bonus.BuyBonusResponse;
+import by.grsu.dto.bonus.RefuseBonusRequest;
+import by.grsu.dto.bonus.RefuseBonusResponse;
+import by.grsu.service.AccountServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

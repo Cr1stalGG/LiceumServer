@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.utils;
+package by.grsu.utils;
 
 import java.util.Random;
 

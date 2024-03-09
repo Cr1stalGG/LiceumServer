@@ -1,7 +1,7 @@
-package by.grsu.edu.banking.security.config;
+package by.grsu.security.config;
 
-import by.grsu.edu.banking.entity.Account;
-import by.grsu.edu.banking.repository.AccountRepository;
+import by.grsu.entity.Account;
+import by.grsu.repository.AccountRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

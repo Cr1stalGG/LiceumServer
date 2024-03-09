@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.security.jwt;
+package by.grsu.security.jwt;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

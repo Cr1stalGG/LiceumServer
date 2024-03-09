@@ -1,4 +1,4 @@
-package by.grsu.edu.banking.dto.auth;
+package by.grsu.dto.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

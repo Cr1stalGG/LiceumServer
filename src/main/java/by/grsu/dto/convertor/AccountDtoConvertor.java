@@ -1,9 +1,9 @@
-package by.grsu.edu.banking.dto.convertor;
+package by.grsu.dto.convertor;
 
-import by.grsu.edu.banking.dto.account.AccountDto;
-import by.grsu.edu.banking.dto.auth.AuthenticationRequest;
-import by.grsu.edu.banking.entity.Account;
-import by.grsu.edu.banking.entity.enumiration.Role;
+import by.grsu.dto.account.AccountDto;
+import by.grsu.dto.auth.AuthenticationRequest;
+import by.grsu.entity.Account;
+import by.grsu.entity.enumiration.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
