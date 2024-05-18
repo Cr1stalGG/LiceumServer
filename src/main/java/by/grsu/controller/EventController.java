@@ -4,6 +4,7 @@ import by.grsu.dto.event.EventCreationDto;
 import by.grsu.dto.event.EventDto;
 import by.grsu.service.api.EventService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,11 +32,13 @@ public class EventController {
     }
 
     @PostMapping
+    @PreAuthorize("hasAuthority('ADMIN')")
     public void save(@RequestBody EventCreationDto dto){
         eventService.save(dto);
     }
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public void deleteById(@PathVariable long id){
         eventService.deleteById(id);
     }
