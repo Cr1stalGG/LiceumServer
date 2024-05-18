@@ -23,6 +23,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         http.authorizeHttpRequests().requestMatchers("/sign/*").permitAll();
+        http.authorizeHttpRequests().requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll();
         http.authorizeHttpRequests().requestMatchers("/accounts/*").hasAuthority(String.valueOf(Role.USER));
         http.authorizeHttpRequests().requestMatchers("/admins/*").hasAuthority(String.valueOf(Role.ADMIN));
         http.authorizeHttpRequests().anyRequest().authenticated();
